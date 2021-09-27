@@ -6,3 +6,23 @@ body {
   background-color: blue;
   border-color: blue;
 }
+
+.carousel .slide-container img {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+.three-carousel .slide-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.three-carousel .slide-container img {
+  width: 25%;
+}
+
+
+.navbar-light .navbar-nav .nav-link.clock {
+  color: red;
+}
